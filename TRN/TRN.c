@@ -17,11 +17,6 @@ int main() {
     char inputArray[1000];
     int len = 0;
 
-    if (iteration >= indexOne) {
-      printf("Yes");
-      break;
-    }
-
     while (userInput != '\n' && userInput != EOF) {
       inputArray[len] = userInput;
       len++;
